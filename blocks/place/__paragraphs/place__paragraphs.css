@@ -1,0 +1,31 @@
+.place__paragraphs {
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    order: 4;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraphs {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraphs {
+        margin-right: 0;
+        margin-left: auto;
+        max-width: calc(50% - 28px);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .place__paragraphs {
+        margin-right: 0;
+        margin-left: auto;
+        max-width: 100%;
+        margin: 32px 16px 0;
+    }
+}

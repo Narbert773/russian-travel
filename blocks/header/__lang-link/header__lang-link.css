@@ -1,0 +1,25 @@
+.header__lang-link {
+    max-width: 30px;
+    min-height: 28px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+    transition: opacity 1s ease;
+}
+
+
+.header__lang-link:last-child {
+    max-width: 29px;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        max-width: 20px;
+        min-height: 22px;
+    }
+}
