@@ -14,12 +14,14 @@
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
+        max-height: 340px;
     }
 }
 
 @media screen and (max-width: 470px) {
     .place__image {
         max-width: 100%;
+        max-height: 320px;
         margin: 32px auto 0;
     }
 }
