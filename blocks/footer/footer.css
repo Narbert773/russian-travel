@@ -1,15 +1,11 @@
 .footer {
-    width: 92.5%;
+    max-width: calc(100% - (3.75% + 3.75%));
     margin: 92px auto 0;
     display: flex;
-    align-items: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 698px) {
     .footer {
-        width: 186px;
-        height: 310px;
-        margin-left: 16px;
         flex-direction: column;
     }
 }

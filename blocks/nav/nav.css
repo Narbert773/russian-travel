@@ -1,13 +1,16 @@
-@media screen and (max-width: 320px) {
+.nav {
+    display: flex;
+}
+
+@media screen and (max-width: 698px) {
     .nav {
-        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .nav {
         flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 0;
-        margin-bottom: auto;
-        height: 100%;
-        margin-bottom: 48px;
+        width: fit-content;
     }
 }
