@@ -144,10 +144,9 @@ header {
 }
 
 .places {
-    max-width: calc(100% - (11.5625% + 11.5625%));
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
-    margin: 92px auto 0;
+    margin: 92px 11.5625% 0;
     display: flex;
     flex-direction: column;
 }
@@ -158,7 +157,6 @@ header {
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .place:last-child {
@@ -167,25 +165,26 @@ header {
 
 .place__title {
     order: 1;
-    max-width: 460px;
-    width: 100%;
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
+    max-width: calc(50% - 2.5%);
     margin-top: 0;
     margin-bottom: 0;
-    border: 1px solid yellow;
+    max-height: fit-content;
 }
 
 .place__website {
     order: 2;
-    max-width: 464px;
-    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    border: 1px solid yellow;
+    max-width: calc(50% - 0.625%);
+    width: 100%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 0;
 }
 
 .website__url-heading {
@@ -209,19 +208,23 @@ header {
 
 .place__image {
     order: 3;
-    max-width: 460px;
+    max-width: calc(50% - 2.5%);
     margin-top: 48px;
-    border: 1px solid yellow;
+    margin-bottom: auto;
 }
 
 .place__paragraphs {
     order: 4;
-    max-width: 464px;
     display: flex;
     flex-direction: column;
     height: fit-content;
     margin-top: 48px;
-    border: 1px solid yellow;
+    max-width: calc(50% - 0.625%);
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 48px;
+    margin-bottom: auto;
+
 }
 
 .place__paragraph {
@@ -339,6 +342,11 @@ header {
         gap: 14px;
     }
 
+    .places {
+        margin-left: 4.6875%;
+        margin-right: 4.6875%;
+    }
+
     .cover {
         max-width: 100%;
         min-height: 640px;
@@ -377,6 +385,26 @@ header {
         margin-right: 3.125%;
         margin-left: 3.125%;
         margin-top: 88px;
+    }
+
+    .places {
+        margin-left: 3.125%;
+        margin-right: 3.125%;
+        margin-top: 88px;
+    }
+
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 25px;
     }
 
     .cover {
@@ -418,6 +446,24 @@ header {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .places {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .place__paragraph {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 10px;
+    }
+
+}
+
+
 @media screen and (max-width: 500px) {
     .lead__title {
         font-size: 50px;
@@ -427,6 +473,10 @@ header {
     .lead__subtitle {
         font-size: 20px;
         line-height: 25px;
+    }
+
+    .place__image {
+        margin-top: 100px;
     }
 
     .cover__title {
@@ -532,6 +582,50 @@ header {
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 64px;
+    }
+
+    .places {
+        margin-top: 64px;
+    }
+
+    .place {
+        flex-direction: column;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35x;
+        max-width: calc(100% - (5% + 5%));
+        width: 100%;
+        margin: 0 auto 0;
+    }
+
+    .place__website {
+        max-width: 100%;
+        max-width: calc(100% - (5% + 5%));
+        margin: 10% auto 0;
+    }
+
+    .place__image {
+        max-width: 100%;
+        margin-top: 10%;
+        margin-bottom: auto;
+    }
+
+    .place__paragraphs {
+        max-width: calc(100% - (5% + 5%));
+        margin: 10% auto 0;
+
+    }
+
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+        margin: 0 auto 0;
+    }
+
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 25px;
     }
 
     .cover {
