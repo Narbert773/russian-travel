@@ -513,7 +513,7 @@ header {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 432px) {
     .page {
         padding-top: 16px;
     }
