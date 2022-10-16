@@ -1,27 +1,20 @@
 .place__image {
-    max-width: 460px;
-    height: fit-content;
     order: 3;
+    max-width: calc(50% - 2.5%);
     margin-top: 48px;
+    margin-bottom: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 500px) {
     .place__image {
-        max-width: 440px;
+        margin-top: 100px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .place__image {
-        max-width: 340px;
-        max-height: 340px;
-    }
-}
-
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 432px) {
     .place__image {
         max-width: 100%;
-        max-height: 320px;
-        margin: 32px auto 0;
+        margin-top: 10%;
+        margin-bottom: auto;
     }
 }

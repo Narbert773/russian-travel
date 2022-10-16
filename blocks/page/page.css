@@ -1,8 +1,10 @@
 .page {
-    max-width: 1280px;
-    font-family: 'Inter', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #2A2C2F;
     padding-top: 28px;
     padding-bottom: 24px;
+    font-family: 'Inter', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -10,43 +12,8 @@
     -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1214px) {
+@media screen and (max-width: 432px) {
     .page {
-        max-width: 1214px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .page {
-        max-width: 1024px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 607px) {
-    .page {
-        box-sizing: border-box;
-        max-width: 607px;
-    }
-}
-
-@media screen and (max-width: 453px) {
-    .page {
-        box-sizing: border-box;
-        max-width: 453px;
-        padding-top: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .page {
-        box-sizing: border-box;
-        max-width: 320px;
         padding-top: 16px;
     }
 }

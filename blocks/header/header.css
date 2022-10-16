@@ -1,23 +1,16 @@
-.header {
-    width: 92.5%;
-    margin: 0 auto;
-    min-height: 52px;
+header {
+    max-width: calc(100% - (3.75% + 3.75%));
+    margin: 0 auto 0;
     display: flex;
-    justify-content: flex-end;
+    min-height: 52px;
 }
 
-@media screen and (max-width: 453px) {
-    .header {
-        min-height: 42px;
-    }
-}
 
-@media screen and (max-width: 320px) {
-    .header {
+@media screen and (max-width: 432px) {
+    header {
+        max-width: 100%;
         min-height: 42px;
-        display: flex;
-        justify-content: flex-end;
-        object-fit: cover;
-        background-position: center;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 }

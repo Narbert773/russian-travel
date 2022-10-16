@@ -1,11 +1,17 @@
 .place {
     width: 100%;
+    box-sizing: border-box;
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .place:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 432px) {
+    .place {
+        flex-direction: column;
+    }
 }

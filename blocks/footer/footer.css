@@ -4,8 +4,14 @@
     display: flex;
 }
 
-@media screen and (max-width: 698px) {
+@media screen and (max-width: 690px) {
     .footer {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        margin-top: 64px;
     }
 }

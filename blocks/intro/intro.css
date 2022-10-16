@@ -1,5 +1,32 @@
 .intro {
-    max-width: 690px;
-    width: 100%;
-    margin: 92px auto 0 148px;
+    box-sizing: border-box;
+    max-width: 53.90625%;
+    margin: 92px auto 0 11.5625%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin-left: 4.6875%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 100%;
+        margin-top: 88px;
+        margin-right: 3.125%;
+        margin-left: 3.125%;
+    }
+}
+
+@media screen and (max-width: 432px) {
+    .intro {
+        max-width: 100%;
+        margin-top: 64px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
