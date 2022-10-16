@@ -16,3 +16,10 @@
         line-height: 20px;
     }
 }
+
+@media screen and (max-width: 432px) {
+    .place__link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

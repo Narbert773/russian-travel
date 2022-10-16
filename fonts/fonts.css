@@ -4,7 +4,7 @@
         url(./inter/inter-black/Inter-Black.otf) format('truetype');
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
         url(./inter/inter-bold/Inter-Bold.otf) format('truetype');
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 @font-face {
