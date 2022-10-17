@@ -14,6 +14,13 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        margin-right: 3.125%;
+        margin-left: 3.125%;
+    }
+}
+
 
 @media screen and (max-width: 432px) {
     .header {

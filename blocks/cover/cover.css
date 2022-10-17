@@ -2,8 +2,6 @@
     max-width: calc(100% - (3.75% + 3.75%));
     min-height: 740px;
     margin: 87px auto 0;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -33,5 +31,6 @@
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
+        margin-top: 66px;
     }
 }
