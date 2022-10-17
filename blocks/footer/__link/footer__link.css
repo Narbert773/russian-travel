@@ -4,6 +4,7 @@
     line-height: 18px;
     margin-right: 18px;
     text-decoration: none;
+    height: fit-content;
 }
 
 .footer__link:hover {

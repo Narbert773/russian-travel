@@ -1,6 +1,5 @@
 .place__website {
     order: 2;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     align-self: flex-end;

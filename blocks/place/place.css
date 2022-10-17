@@ -10,8 +10,15 @@
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
 @media screen and (max-width: 432px) {
     .place {
         flex-direction: column;
+        margin-bottom: 50px;
     }
 }

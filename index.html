@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>russian-travel</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="root">
     <div class="page">
         <header class="header">
             <div class="header__logo"></div>
-            <a href="#" class="header__lang-link text-color">Ru</a>
-            <a href="#" class="header__lang-link text-color">En</a>
+            <ul class="header__lang-link">
+                <li><a href="#" class="header__lang-link header__lang-link_current text-color">Ru</a></li>
+                <li><a href="#" class="header__lang-link text-color">En</a></li>
+            </ul>
         </header>
         <main class="main">
             <section class="lead">
@@ -68,7 +70,7 @@
                     <h2 class="place__title text-color">Куршская коса</h2>
                     <img src="./images/place-kosa.jpg" class="place__image" alt="Коса">
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <p class="place__url-heading">URL</p>
                         <a href="http://park-kosa.ru" class="place__link text-color">park-kosa.ru</a>
                     </div>
                     <div class="place__paragraphs">
@@ -94,7 +96,7 @@
                     <h2 class="place__title text-color">Кольский</h2>
                     <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский">
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             class="place__link text-color">National Geographic</a>
                     </div>
@@ -119,7 +121,7 @@
                     <h2 class="place__title text-color">Алтай</h2>
                     <img src="./images/place-altai.jpg" class="place__image" alt="Алтай">
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                             class="place__link text-color">Facebook</a>
                     </div>
@@ -148,7 +150,7 @@
                     <h2 class="place__title text-color">Зимний Байкал</h2>
                     <img src="./images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал">
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <p class="place__url-heading">URL</p>
                         <a href="https://vk.com/baikalmile" class="place__link text-color">https://vk.com/baikalmile</a>
                     </div>
                     <div class="place__paragraphs">
@@ -173,7 +175,7 @@
                     <h2 class="place__title text-color">Карелия</h2>
                     <img src="./images/place-karelia.jpg" class="place__image" alt="Карелия">
                     <div class="place__website">
-                        <h3 class="place__url-heading">URL</h3>
+                        <p class="place__url-heading">URL</p>
                         <a href="http://vodlozero.ru" class="place__link text-color">http://vodlozero.ru/</a>
                     </div>
                     <div class="place__paragraphs">
@@ -201,11 +203,13 @@
             <section class="cover">
                 <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
                     <h2 class="cover__title text-color">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle text-color">По мотивам учебной темы о Транссибе — путешествие от
-                        столицы
-                        до
-                        Байкала на
-                        электричках.</p>
+                    <div class="cover__subtitle">
+                        <p class="cover__paragraph text-color">По мотивам учебной темы о Транссибе — путешествие от
+                            столицы
+                            до
+                            Байкала на
+                            электричках.</p>
+                    </div>
                 </a>
             </section>
         </main>
@@ -217,7 +221,7 @@
                 <a href="https://calendar.yandex.ru" class="footer__link text-color">Календарь</a>
                 <a href="https://travel.yandex.ru" class="footer__link text-color">Путешествия</a>
             </nav>
-            <div class="footer__copyright text-color">© 2022. Никита Семенов</div>
+            <p class="footer__copyright text-color">© 2022. Никита Семенов</p>
         </footer>
     </div>
 

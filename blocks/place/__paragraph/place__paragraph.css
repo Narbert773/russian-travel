@@ -5,8 +5,12 @@
     margin: 0 auto 0;
 }
 
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:last-of-type {
     margin-top: 26px;
+}
+
+.place__paragraph:first-of-type {
+    margin-top: 0;
 }
 
 
@@ -16,7 +20,7 @@
         line-height: 26.08px;
     }
 
-    .place__paragraph:nth-of-type(2) {
+    .place__paragraph:last-of-type {
         margin-top: 25px;
     }
 }
@@ -27,7 +31,7 @@
         line-height: 20px;
     }
 
-    .place__paragraph:nth-of-type(2) {
+    .place__paragraph:last-of-type {
         margin-top: 10px;
     }
 }
@@ -39,7 +43,7 @@
         margin: 0 auto 0;
     }
 
-    .place__paragraph:nth-of-type(2) {
+    .place__paragraph:last-of-type {
         margin-top: 25px;
     }
 }
